@@ -1,0 +1,5 @@
+#Parent,Child,ChildType
+#Root node (A) is assumed to be ANY
+A,C,ANY
+A,D,PERSON
+B,B1,PERSON
