@@ -1,6 +1,6 @@
 #Parent,Child,ChildType
-#Root node (A) is assumed to be ANY
-A,B,ANY
-A,C,ANY
-A,D,PERSON
-B,D,PERSON
+#Root node (A) is assumed to be ALL
+A,B,ALL
+A,C,ALL
+A,D,HUMAN
+B,D,HUMAN
