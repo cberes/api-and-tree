@@ -1,6 +1,0 @@
-#Parent,Child,ChildType
-#Root node (A) is assumed to be ALL
-A,B,ALL
-A,C,ALL
-A,D,HUMAN
-B,D,HUMAN
