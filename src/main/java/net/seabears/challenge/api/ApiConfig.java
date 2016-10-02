@@ -8,7 +8,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 
-public class InterviewConfig extends Configuration {
+public class ApiConfig extends Configuration {
     @NotEmpty
     private String hackerNewsUriBase = "https://hacker-news.firebaseio.com/v0";
 

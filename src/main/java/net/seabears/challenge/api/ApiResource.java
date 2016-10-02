@@ -15,9 +15,9 @@ import java.util.function.Function;
 import static java.util.stream.Collectors.toList;
 import static java.util.stream.Collectors.toMap;
 
-@Path("/interview")
+@Path("/api")
 @Produces(MediaType.APPLICATION_JSON)
-public class InterviewResource {
+public class ApiResource {
     @NotNull
     private final HackerNewsResource hackerNews;
 
@@ -25,12 +25,12 @@ public class InterviewResource {
     private final RedditResource reddit;
 
     /**
-     * Creates a new Interview resource
+     * Creates a new API resource
      *
      * @param hackerNews Hacker News client
      * @param reddit Reddit client
      */
-    public InterviewResource(@NotNull HackerNewsResource hackerNews, @NotNull RedditResource reddit) {
+    public ApiResource(@NotNull HackerNewsResource hackerNews, @NotNull RedditResource reddit) {
         this.hackerNews = hackerNews;
         this.reddit = reddit;
     }
