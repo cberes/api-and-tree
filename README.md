@@ -12,7 +12,7 @@ Build the uber jar:
 
     ./gradlew shadowJar
 
-The run the uber jar:
+Then run the uber jar:
 
     java -jar build/libs/hn-reddit-api-1.0.0-all.jar server server.yaml
 
